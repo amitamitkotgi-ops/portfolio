@@ -34,7 +34,7 @@ const PORTFOLIO_DATA = {
     linkedin: "https://linkedin.com/in/ameet-kotgi-43b45a34b",
     github: "https://github.com/amitamitkotgi-ops",
     githubUsername: "amitamitkotgi-ops",
-    resumePath: "C:\Users\Amit\OneDrive\Desktop\ameet-portfolio\assets\Amit_ECE_Resume.docx", // PLACEHOLDER — add the real PDF at this path
+    resumePath: "assets/Amit_ECE_Resume.docx", // PLACEHOLDER — add the real PDF at this path
   },
 
   quickStats: [
