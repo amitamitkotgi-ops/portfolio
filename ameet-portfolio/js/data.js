@@ -115,7 +115,7 @@ const PORTFOLIO_DATA = {
       description: "A web dashboard for monitoring a 12V solar battery system \u2014 live voltage, current, state of charge, temperature and device health, with a simulation mode built to plug into real ESP32 + Firebase hardware later.",
       technologies: ["HTML5", "Tailwind CSS", "JavaScript", "Chart.js", "ESP32 (planned)", "Firebase (planned)"],
       image: "assets/projects/gridguardian-ai.png",
-      github: "https://github.com/amitamitkotgi-ops",
+      github: "https://github.com/amitamitkotgi-ops/gridguardian-ai.git",
       demo: "",
       status: "Simulation Mode",
       problem: "A solar-powered 12V battery setup has sensors only after the battery, so solar output can't be measured directly \u2014 the system needed a clear way to watch battery health without pretending to show data it doesn't have.",
