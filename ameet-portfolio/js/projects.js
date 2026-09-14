@@ -85,9 +85,9 @@ document.addEventListener("DOMContentLoaded", () => {
     projectsGrid.innerHTML = projects.map(p => `
       <article class="project-card reveal" data-categories="${p.categories.join(",")}" data-id="${p.id}">
         <div class="project-media">
-          <span class="project-status">${p.status}</span>
-          <div class="media-icon">${icons.chip}</div>
-        </div>
+  ${p.image ? `<img src="${p.image}" alt="${p.title}" class="project-image">` : `<div class="media-icon">${icons.chip}</div>`}
+  <span class="project-status">${p.status}</span>
+</div>
         <div class="project-body">
           <h3>${p.title}</h3>
           <div class="project-subtitle">${p.subtitle}</div>
