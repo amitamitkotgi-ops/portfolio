@@ -83,8 +83,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const projectsGrid = document.getElementById("projects-grid");
   function renderProjects() {
     projectsGrid.innerHTML = projects.map(p => `
-      <article class="project-card reveal" data-categories="${p.categories.join(",")}" data-id="${p.id}">
-        <div class="project-media">
+      
+<article class="project-card reveal ${p.id === "gridguard-ai" ? "featured" : ""}" data-categories="${p.categories.join(",")}" data-id="${p.id}">
+         <div class="project-media">
   ${p.image ? `<img src="${p.image}" alt="${p.title}" class="project-image">` : `<div class="media-icon">${icons.chip}</div>`}
   <span class="project-status">${p.status}</span>
 </div>
