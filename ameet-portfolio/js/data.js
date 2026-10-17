@@ -21,8 +21,8 @@ const PORTFOLIO_DATA = {
       "Diploma in Electronics & Communication Engineering",
       "B.E. in Electronics & Communication Engineering (in progress, via lateral entry)"
     ],
-    heroHeadline: "Electronics Engineer Building Real-World Technology",
-    heroSubtext: "ECE engineering student passionate about embedded systems, IoT, electronics, intelligent energy systems, and software-driven engineering solutions.",
+    heroHeadline: "Electronics Engineer — Connecting Ideas to Innovation.",
+    heroSubtext: "ECE student passionate about embedded systems, IoT, and AI, building practical hardware–software solutions for real-world engineering challenges.",
     aboutStatement: "I enjoy turning engineering concepts into working systems \u2014 from sensors and microcontrollers to data dashboards and intelligent monitoring solutions.",
     aboutParagraphs: [
      
