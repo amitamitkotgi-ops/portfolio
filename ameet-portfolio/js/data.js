@@ -25,9 +25,15 @@ const PORTFOLIO_DATA = {
     heroSubtext: "ECE engineering student passionate about embedded systems, IoT, electronics, intelligent energy systems, and software-driven engineering solutions.",
     aboutStatement: "I enjoy turning engineering concepts into working systems \u2014 from sensors and microcontrollers to data dashboards and intelligent monitoring solutions.",
     aboutParagraphs: [
-      "I'm an ECE student at KLE Technological University, currently pursuing my B.E. after joining through lateral entry with a Diploma in Electronics & Communication Engineering.",
-      "My interest sits at the point where electronics, embedded systems and software meet \u2014 microcontrollers, sensors, signal processing, and the dashboards that turn raw data into something useful.",
-      "I learn by building. Most of what I know comes from taking a real engineering problem \u2014 monitoring a battery, sensing gas leaks, measuring temperature \u2014 and working through it end to end, from the circuit to the screen."
+     
+  "I am an Electronics and Communication Engineering student at KLE Technological University, Belagavi, pursuing my B.E. after completing a Diploma in Electronics and Communication Engineering through lateral entry.",
+
+  "My technical interests include electronics, embedded systems, IoT, and artificial intelligence. I enjoy working with microcontrollers, sensors, hardware interfaces, and software applications to develop practical engineering solutions.",
+
+  "I believe in learning through hands-on implementation. Through projects involving intelligent energy monitoring, sensor-based systems, and data-driven dashboards, I explore the complete development process—from hardware design and data acquisition to backend development and data visualization.",
+
+  "I am continuously expanding my technical knowledge, strengthening my problem-solving abilities, and exploring emerging technologies to build reliable, efficient, and meaningful solutions to real-world engineering challenges."
+
     ],
     // PLACEHOLDER — replace with real contact details before publishing
     email: "amitamitkotgi@gmail.com",
