@@ -180,6 +180,44 @@ const PORTFOLIO_DATA = {
 },
 
     {
+      id: "bankmate-ai",
+      title: "BANKMATE AI",
+      subtitle: "AI-Powered Banking Customer Query Assistant",
+      categories: ["Web", "AI"],
+      description: "A conversational AI banking assistant concept designed to understand customer questions in simple English and provide clear responses using synthetic banking data.",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "Streamlit",
+        "SQLite",
+        "LLM Integration",
+        "NLP"
+      ],
+      github: "https://github.com/amitamitkotgi-ops",
+      demo: "",
+      status: "Prototype / In Development",
+      problem: "Banking customers can find it difficult to understand banking procedures, failed transactions, and financial information through traditional support channels.",
+      solution: "BANKMATE AI explores conversational AI to interpret banking questions, identify user intent, retrieve permitted information through backend services, and generate clear responses.",
+      features: [
+        "Natural-language banking questions",
+        "Banking query intent recognition",
+        "Synthetic account and transaction data",
+        "Education loan eligibility explanations",
+        "Failed transaction guidance",
+        "FastAPI backend architecture",
+        "LLM integration exploration"
+      ],
+      architecture: "Streamlit dashboard → FastAPI backend → intent recognition and LLM processing → SQLite synthetic banking data → conversational response.",
+      futureImprovements: [
+        "Integrate and test an LLM API",
+        "Add authentication and role-based authorization",
+        "Improve transaction-query workflows",
+        "Add secure API integrations where authorized",
+        "Test response quality and data privacy"
+      ]
+    },
+
+    {
       id: "smart-energy-meter",
       title: "Smart Energy Meter",
       subtitle: "IoT Dashboard for Voltage, Current & Power Monitoring",
