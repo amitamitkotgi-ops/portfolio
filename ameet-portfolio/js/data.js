@@ -137,6 +137,48 @@ const PORTFOLIO_DATA = {
   filters: ["All", "Embedded", "IoT", "Electronics", "FPGA", "Web", "Energy"],
 
   projects: [
+
+    
+{
+  id: "gridguard-ai",
+  title: "GRIDGUARD AI",
+  subtitle: "AI-Powered Industrial Energy Monitoring & Anomaly Detection",
+  categories: ["Embedded", "IoT", "Energy", "Web"],
+  description: "An AI-enabled energy monitoring platform designed to detect abnormal operating conditions, forecast energy consumption, and support predictive maintenance for industrial equipment.",
+  technologies: [
+    "Python",
+    "FastAPI",
+    "SQLite",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "WebSockets",
+    "Isolation Forest",
+    "Time-Series Forecasting"
+  ],
+  github: "https://github.com/amitamitkotgi-ops/GRIDGUARD-AI",
+  demo: "https://gridguard-ai-frontend.vercel.app",
+  status: "3rd Prize — KLE Tech HackFest 2026",
+  problem: "Industrial equipment can develop abnormal operating conditions that are difficult to identify through basic monitoring alone.",
+  solution: "A monitoring dashboard combines telemetry data, anomaly detection, and energy forecasting to help visualize equipment conditions and identify unusual readings.",
+  features: [
+    "Live-style telemetry dashboard",
+    "Anomaly detection using Isolation Forest",
+    "Next-hour energy forecasting demonstration",
+    "Telemetry storage using SQLite",
+    "FastAPI backend and WebSocket communication",
+    "Simulated telemetry for demonstration without physical hardware",
+    "Energy monitoring and abnormal-condition visualization"
+  ],
+  architecture: "Telemetry simulator or device → FastAPI backend → SQLite database → AI/ML processing → WebSocket updates → Web dashboard.",
+  futureImprovements: [
+    "Validate predictions with larger real-world datasets",
+    "Integrate physical sensors for live equipment monitoring",
+    "Improve forecasting accuracy",
+    "Add maintenance alerts and equipment health reports"
+  ]
+},
+
     {
       id: "smart-energy-meter",
       title: "Smart Energy Meter",
