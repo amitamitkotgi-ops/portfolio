@@ -319,30 +319,26 @@ const PORTFOLIO_DATA = {
     { title: "Future Engineering Career", description: "Working toward an internship or entry-level role in embedded systems or IoT." }
   ],
 
-  // Only real, editable achievements — no invented awards or numbers.
-  achievements: [
-
+  
   // Only real, editable achievements — no invented awards or numbers.
   achievements: [
     {
       category: "Hackathon",
       title: "3rd Prize — KLE Tech HackFest 2026",
-      description:
-        "Won 3rd prize with Team GRIDGUARD AI for an AI-powered industrial energy monitoring and anomaly detection system."
+      description: "Won 3rd prize with Team GRIDGUARD AI for an AI-powered industrial energy monitoring and anomaly detection system."
     },
     {
       category: "Technical Events",
       title: "Resonance Transistron 2026, KLE Tech",
-      description:
-        "Competed with a Portable Battery Condition Tester built around the LM393 comparator."
+      description: "Competed with a Portable Battery Condition Tester built around the LM393 comparator."
     },
     {
       category: "Technical Events",
       title: "Buildverse Challenge League, KLE Tech (Pleiades Fest)",
-      description:
-        "Selected a Smart Energy Monitor project for the challenge league."
+      description: "Selected a Smart Energy Monitor project for the challenge league."
     }
   ],
+
   exploring: [
     "Embedded Systems",
     "IoT",
@@ -352,3 +348,6 @@ const PORTFOLIO_DATA = {
     "Smart Energy Systems"
   ]
 };
+
+
+  
