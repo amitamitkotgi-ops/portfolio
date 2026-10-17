@@ -44,6 +44,7 @@ const PORTFOLIO_DATA = {
     { label: "Approach", value: "Continuous Learning" }
   ],
 
+  
   skills: {
     "Electronics": [
       { name: "Analog Electronics", level: "Hands-on" },
@@ -54,6 +55,7 @@ const PORTFOLIO_DATA = {
       { name: "Sensors", level: "Hands-on" },
       { name: "Signal Conditioning", level: "Project Experience" }
     ],
+
     "Embedded Systems": [
       { name: "Arduino", level: "Hands-on" },
       { name: "ESP32", level: "Hands-on" },
@@ -66,13 +68,16 @@ const PORTFOLIO_DATA = {
       { name: "I2C", level: "Project Experience" },
       { name: "SPI", level: "Familiar" }
     ],
+
     "Programming": [
       { name: "C", level: "Hands-on" },
       { name: "C++", level: "Familiar" },
+      { name: "Python", level: "Project Experience" },
       { name: "JavaScript", level: "Hands-on" },
       { name: "HTML", level: "Hands-on" },
       { name: "CSS", level: "Hands-on" }
     ],
+
     "Hardware / Simulation": [
       { name: "Proteus", level: "Familiar" },
       { name: "LTspice", level: "Familiar" },
@@ -80,6 +85,7 @@ const PORTFOLIO_DATA = {
       { name: "Vivado", level: "Learning" },
       { name: "Keil", level: "Familiar" }
     ],
+
     "IoT / Cloud": [
       { name: "Firebase", level: "Hands-on" },
       { name: "Realtime Database", level: "Hands-on" },
@@ -87,12 +93,29 @@ const PORTFOLIO_DATA = {
       { name: "Web Dashboards", level: "Hands-on" },
       { name: "Sensor Monitoring", level: "Hands-on" }
     ],
+
     "Web Development": [
       { name: "HTML5", level: "Hands-on" },
       { name: "CSS3", level: "Hands-on" },
       { name: "JavaScript", level: "Hands-on" },
       { name: "Chart.js", level: "Project Experience" }
     ],
+
+    "Backend & APIs": [
+      { name: "FastAPI", level: "Project Experience" },
+      { name: "REST APIs", level: "Project Experience" },
+      { name: "SQLite", level: "Project Experience" },
+      { name: "WebSockets", level: "Project Experience" },
+      { name: "Git & GitHub", level: "Hands-on" }
+    ],
+
+    "AI / Machine Learning": [
+      { name: "Isolation Forest", level: "Project Experience" },
+      { name: "Anomaly Detection", level: "Project Experience" },
+      { name: "Telemetry Data Analysis", level: "Project Experience" },
+      { name: "Time-Series Forecasting", level: "Learning" }
+    ],
+
     "Engineering Areas": [
       { name: "Embedded Systems", level: "Hands-on" },
       { name: "IoT", level: "Hands-on" },
@@ -100,6 +123,7 @@ const PORTFOLIO_DATA = {
       { name: "FPGA", level: "Learning" },
       { name: "DSP", level: "Learning" },
       { name: "Signal Processing", level: "Familiar" },
+      { name: "PID Control", level: "Project Experience" },
       { name: "Renewable Energy Technology", level: "Project Experience" }
     ]
   },
