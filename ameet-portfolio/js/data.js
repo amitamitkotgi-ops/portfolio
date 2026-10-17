@@ -138,34 +138,6 @@ const PORTFOLIO_DATA = {
 
   projects: [
     {
-      id: "gridguardian-ai",
-      title: "GridGuardian AI",
-      subtitle: "Smart Solar Battery Management System",
-      categories: ["IoT", "Energy", "Web"],
-      description: "A web dashboard for monitoring a 12V solar battery system \u2014 live voltage, current, state of charge, temperature and device health, with a simulation mode built to plug into real ESP32 + Firebase hardware later.",
-      technologies: ["HTML5", "Tailwind CSS", "JavaScript", "Chart.js", "ESP32 (planned)", "Firebase (planned)"],
-      image: "assets/projects/gridguardian-ai.png",
-      github: "https://github.com/amitamitkotgi-ops/gridguardian-ai.git",
-      demo: "",
-      status: "Simulation Mode",
-      problem: "A solar-powered 12V battery setup has sensors only after the battery, so solar output can't be measured directly \u2014 the system needed a clear way to watch battery health without pretending to show data it doesn't have.",
-      solution: "A dark-themed dashboard that displays battery voltage, current, state of charge, temperature and a simple Charging / Idle status, with live charts and simulated data standing in for hardware that isn't connected yet.",
-      features: [
-        "Battery voltage, current, SOC and temperature cards",
-        "Live charts built with Chart.js",
-        "Charging / Idle status instead of unmeasurable solar output",
-        "AI-style insights and smart alerts panel",
-        "Relay control toggle and device health indicators",
-        "Simulation mode with realistic value ranges, updated every few seconds"
-      ],
-      architecture: "Stage 1 (current) runs entirely in the browser: a JavaScript simulator generates realistic sensor values on a timer and feeds the same UI that Stage 2 will use. Stage 2 will swap the simulator for a live ESP32 + Firebase Realtime Database connection without changing the interface.",
-      futureImprovements: [
-        "Connect real ESP32 + Firebase data feed",
-        "Add historical data export and reports",
-        "Add authentication for multi-device access"
-      ]
-    },
-    {
       id: "smart-energy-meter",
       title: "Smart Energy Meter",
       subtitle: "IoT Dashboard for Voltage, Current & Power Monitoring",
